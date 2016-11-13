@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fakes xmlns="http://schemas.microsoft.com/fakes/2011/" Diagnostic="true">
+  <Assembly Name="System" Version="4.0.0.0"/>
+  <StubGeneration>
+    <Clear/>
+  </StubGeneration>
+  <ShimGeneration>
+    <Clear/>
+    <Add FullName="System.Net.WebRequest!"/>
+    <Add FullName="System.Net.HttpWebRequest!"/>
+    <Add FullName="System.Net.HttpWebResponse!"/>
+  </ShimGeneration>
+</Fakes>
